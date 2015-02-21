@@ -1,0 +1,10 @@
+---
+slug: :rpcalc
+version: '1.0'
+author: Nakahara
+name: reverse-polish calculator
+description: 逆ポーランド記法で計算.
+depends:
+  version: '1.0'
+  plugin: []
+repository: git://github.com/Boujanai/rpcalc.git
