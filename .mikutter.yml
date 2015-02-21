@@ -1,8 +1,8 @@
 ---
 slug: :rpcalc
-version: '1.0'
+version: '1.1'
 author: Nakahara
-name: reverse-Polish calculator
+name: reverse-polish calculator
 description: 逆ポーランド記法で計算.
 depends:
   version: '1.0'
