@@ -17,7 +17,7 @@ Plugin.create(:rpcalc) do
 		stack = []
 
 		array.each do |n|
-			if ("0" <= n) && (n <= "9")
+			if /\-?[0-9]+(.[0-9]+)?([eE][+-]?[0-9]+)?/ =~ n
 				stack = [0, n.to_f] + stack
 			elsif stack[1] != nil
 				if n == "+" then
